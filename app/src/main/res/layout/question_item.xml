@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="5dp">
+
+    <ImageView
+        android:id="@+id/ivQuestion"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@color/colorAccent" />
+
+    <TextView
+        android:id="@+id/tvCreationDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_toRightOf="@id/ivQuestion"
+        android:text="Asked 2016-02-19 07:36:25"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/tvQuestion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvCreationDate"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_toRightOf="@id/ivQuestion"
+        android:text="This is going to be  very long question for testing . I want to know your opinion on this"
+        android:textSize="16sp" />
+
+
+</RelativeLayout>

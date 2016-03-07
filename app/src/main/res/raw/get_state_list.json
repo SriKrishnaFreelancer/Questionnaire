@@ -1,0 +1,146 @@
+{
+  "errorcode": 1,
+  "message": "Success",
+  "states": [
+    {
+      "id": "8989",
+      "name": "AndamanandNicobar"
+    },
+    {
+      "id": "8965",
+      "name": "AndhraPradesh"
+    },
+    {
+      "id": "8992",
+      "name": "ArunachalPradesh"
+    },
+    {
+      "id": "8975",
+      "name": "Assam"
+    },
+    {
+      "id": "8980",
+      "name": "Bihar"
+    },
+    {
+      "id": "8997",
+      "name": "Chandigar"
+    },
+    {
+      "id": "8984",
+      "name": "Chhattisgarh"
+    },
+    {
+      "id": "8987",
+      "name": "DadraandNagarHaveli"
+    },
+    {
+      "id": "8996",
+      "name": "DamanandDiu"
+    },
+    {
+      "id": "8988",
+      "name": "Delhi"
+    },
+    {
+      "id": "8972",
+      "name": "Goa"
+    },
+    {
+      "id": "8968",
+      "name": "Gujarat"
+    },
+    {
+      "id": "8966",
+      "name": "Haryana"
+    },
+    {
+      "id": "8974",
+      "name": "HimachalPradesh"
+    },
+    {
+      "id": "8990",
+      "name": "Jharkhand"
+    },
+    {
+      "id": "8964",
+      "name": "Karnataka"
+    },
+    {
+      "id": "8985",
+      "name": "Kashmir"
+    },
+    {
+      "id": "8969",
+      "name": "Kerala"
+    },
+    {
+      "id": "8995",
+      "name": "Laccadives"
+    },
+    {
+      "id": "8971",
+      "name": "MadhyaPradesh"
+    },
+    {
+      "id": "8963",
+      "name": "Maharashtra"
+    },
+    {
+      "id": "8982",
+      "name": "Manipur"
+    },
+    {
+      "id": "8979",
+      "name": "Meghalaya"
+    },
+    {
+      "id": "8993",
+      "name": "Mizoram"
+    },
+    {
+      "id": "8994",
+      "name": "Nagaland"
+    },
+    {
+      "id": "8978",
+      "name": "Odisha"
+    },
+    {
+      "id": "8991",
+      "name": "Pondicheri"
+    },
+    {
+      "id": "8981",
+      "name": "Punjab"
+    },
+    {
+      "id": "8976",
+      "name": "Rajasthan"
+    },
+    {
+      "id": "8986",
+      "name": "Sikkim"
+    },
+    {
+      "id": "8970",
+      "name": "TamilNadu"
+    },
+    {
+      "id": "8977",
+      "name": "Tripura"
+    },
+    {
+      "id": "8973",
+      "name": "UttarPradesh"
+    },
+    {
+      "id": "8983",
+      "name": "Uttarakhand"
+    },
+    {
+      "id": "8967",
+      "name": "WestBengal"
+    }
+  ]
+}

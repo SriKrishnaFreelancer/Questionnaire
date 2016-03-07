@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:id="@+id/layout_sms"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/colorPrimary"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@mipmap/ic_launcher" />
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|top"
+        android:inputType="textCapWords"
+        android:maxLines="3"
+        android:text="@string/msg_enter_mobile"
+        android:textColor="@android:color/white"
+        android:textSize="20dp" />
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvStates"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:text="Choose a State"
+            android:textColor="@android:color/white"
+            android:textSize="24sp" />
+
+        <Spinner
+            android:id="@+id/stateSpinner"
+            android:layout_width="240dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvStates"
+            android:layout_marginTop="10dp"
+            android:backgroundTint="#FFFFFF"
+            android:fontFamily="sans-serif-light"
+            android:minWidth="300dp"
+            android:textColor="@android:color/white"
+            android:textColorHint="@android:color/white">
+
+        </Spinner>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="1.5dp"
+            android:src="@android:color/white" />
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal|top"
+            android:inputType="textCapWords"
+            android:maxLines="3"
+            android:text="Enter Contact Number"
+            android:textColor="@android:color/white"
+            android:textSize="24sp" />
+
+        <EditText
+            android:layout_marginTop="5dp"
+            android:id="@+id/etContactNumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#FFFFFF"
+            android:hint="Enter Contact Number"
+            android:inputType="number"
+            android:singleLine="true"
+            android:textColor="@android:color/white"
+            android:textColorHint="@android:color/white" />
+
+
+        <TextView
+            android:id="@+id/tvGender"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:layout_marginTop="10dp"
+            android:text="Select Gender"
+            android:textColor="@android:color/white"
+            android:textSize="24sp" />
+
+        <Spinner
+            android:id="@+id/genderSpinner"
+            android:layout_width="240dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvStates"
+            android:layout_marginTop="10dp"
+            android:backgroundTint="#FFFFFF"
+
+            android:fontFamily="sans-serif-light"
+            android:minWidth="300dp"
+            android:textColor="@android:color/white">
+
+        </Spinner>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="1.5dp"
+            android:src="@android:color/white" />
+
+        <Button
+            android:id="@+id/btn_request_sms"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:background="@color/colorPrimaryDark"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:text="@string/lbl_submit"
+            android:textColor="@android:color/white"
+            android:textSize="14dp" />
+    </LinearLayout>
+
+
+</LinearLayout>
